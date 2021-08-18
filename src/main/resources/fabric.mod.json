@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "arcane_oae",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Arcane Odds and Ends",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.lt_schmiddy.arcane_oae.ArcaneOddsAndEndsMod"
     ]
   },
   "mixins": [
