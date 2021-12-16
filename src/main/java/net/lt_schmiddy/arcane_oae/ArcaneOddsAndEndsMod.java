@@ -11,6 +11,5 @@ public class ArcaneOddsAndEndsMod implements ModInitializer {
 		// Proceed with mild caution.
 		ConfigHandler.load();
 		ConfigHandler.save();
-
 	}
 }

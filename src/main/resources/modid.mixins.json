@@ -5,6 +5,9 @@
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "StackSizesMixin",
+    "MushroomStewItemMixin",
+    "SuspiciousStewRecipeMixin",
+    "SuspiciousStewItemMixin",
     "ThrowableFireChargeMixin"
   ],
   "injectors": {

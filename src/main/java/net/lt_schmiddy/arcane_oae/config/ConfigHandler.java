@@ -12,8 +12,14 @@ public class ConfigHandler {
     
     public static Config config;
 
-    // public ConfigHandler(){}
+    // Ensures config is loaded before trying to access it.
+    public static Config getConfig() {
+        if (config == null) {
+            return load();
+        }
 
+        return config;
+    }
 
     public static void save(){
         String json = gson.toJson(config);
